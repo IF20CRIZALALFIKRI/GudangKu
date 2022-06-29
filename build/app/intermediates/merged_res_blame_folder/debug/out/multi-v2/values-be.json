@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/mnt/9E5486B654869127/rizalhimself/Documents/Pemrograman/SMT6/PMO_GudangKu/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "D:\\Data Kuliah\\Semester 6\\PMO ngulang\\Final Projek\\PMO_GudangKu\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
-                    "source": "/home/rizalhimself/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/values-be/values-be.xml",
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-3\\acbce933e4b464a5224ed377a62db1f5\\transformed\\core-1.6.0\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

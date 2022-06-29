@@ -7,12 +7,83 @@ class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Dashboard")),
-      body: Center(
-          child: Text(
-        "Halaman Dashboard",
-        textScaleFactor: 2,
-      )),
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        title: const Text("DASBOARD"),
+      ),
+      body: GridView.count(
+        padding: const EdgeInsets.all(25),
+        crossAxisCount: 2,
+        children: <Widget>[
+          Card(
+              margin: const EdgeInsets.all(8),
+              child: InkWell(
+                onTap: (){},
+                splashColor: Colors.blue,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: const <Widget>[
+                      Icon(Icons.home, size: 70, color: Colors.blueAccent,),
+                      Text("GUDANG A", style: TextStyle(fontSize: 17.0)),
+                    ],
+                  ),
+                ),
+              )
+          ),
+          Card(
+            margin: const EdgeInsets.all(8),
+            child: InkWell(
+              onTap: (){},
+              splashColor: Colors.blue,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: const <Widget>[
+                    Icon(Icons.home, size: 70, color: Colors.blueAccent,),
+                    Text("GUDANG B", style: TextStyle(fontSize: 17.0)),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Card(
+            margin: const EdgeInsets.all(8),
+            child: InkWell(
+              onTap: (){},
+              splashColor: Colors.blue,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: const <Widget>[
+                    Icon(Icons.home, size: 70, color: Colors.blueAccent,),
+                    Text("GUDANG C", style: TextStyle(fontSize: 17.0)),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Card(
+            margin: const EdgeInsets.all(8),
+            child: InkWell(
+              onTap: (){},
+              splashColor: Colors.blue,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: const <Widget>[
+                    Icon(Icons.home, size: 70, color: Colors.blueAccent,),
+                    Text("GUDANG D", style: TextStyle(fontSize: 17.0)),
+                  ],
+                ),
+              ),
+            ),
+          ),
+
+        ],
+      ),
     );
   }
 }
+
+

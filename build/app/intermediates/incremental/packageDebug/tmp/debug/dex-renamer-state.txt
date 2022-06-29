@@ -1,4 +1,4 @@
-#Wed Jun 29 21:32:45 WIB 2022
-base.0=/mnt/9E5486B654869127/rizalhimself/Documents/Pemrograman/SMT6/PMO_GudangKu/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Wed Jun 29 23:42:49 ICT 2022
+base.0=D\:\\Data Kuliah\\Semester 6\\PMO ngulang\\Final Projek\\PMO_GudangKu\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
