@@ -1,0 +1,4 @@
+#Wed Jun 29 20:08:08 WIB 2022
+base.0=/mnt/9E5486B654869127/rizalhimself/Documents/Pemrograman/SMT6/PMO_GudangKu/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
