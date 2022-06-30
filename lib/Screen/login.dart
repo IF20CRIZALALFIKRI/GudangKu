@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gudangku/Screen/signup.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -92,12 +93,17 @@ class LoginPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text("Don't have an account?"),
-                        Text(
-                          " Sign up",
-                          style: TextStyle(
-                            fontWeight: FontWeight.w600,
-                            fontSize: 18,
+                        TextButton(
+                          child: Text(
+                            "Signup",
+                            style: TextStyle(color: Colors.black),
                           ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => SignupPage()));
+                          },
                         )
                       ],
                     ),
