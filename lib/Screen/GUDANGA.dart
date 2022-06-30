@@ -7,7 +7,15 @@ class GUDANGA extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('GUDANGA'),
+        title: const Text("Rak Barang"),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const <Widget>[
+            Text("Silahkan tambahkan barang")
+          ],
+        ),
       ),
     );
   }

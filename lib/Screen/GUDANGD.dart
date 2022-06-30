@@ -5,6 +5,18 @@ class GUDANGD extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Rak Barang"),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const <Widget>[
+            Text("Silahkan tambahkan barang")
+          ],
+        ),
+      ),
+    );
   }
 }
