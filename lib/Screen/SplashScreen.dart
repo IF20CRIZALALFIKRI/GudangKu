@@ -4,6 +4,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:gudangku/Screen/RegistrasiUser.dart';
 import 'package:gudangku/Screen/login.dart';
+import 'package:gudangku/Screen/signup.dart';
 
 import 'Dashboard.dart';
 
@@ -38,7 +39,7 @@ class _SplashScreenApp extends State<SplashScreenApp> {
     Timer(
         Duration(seconds: 3),
         (() => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => LoginPage()))));
+            context, MaterialPageRoute(builder: (context) => SignupPage()))));
   }
 
   @override
