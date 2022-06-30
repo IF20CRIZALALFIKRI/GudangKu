@@ -39,13 +39,13 @@ class _SplashScreenApp extends State<SplashScreenApp> {
     Timer(
         Duration(seconds: 3),
         (() => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => SignupPage()))));
+            context, MaterialPageRoute(builder: (context) => LoginPage()))));
   }
 
   @override
   Widget build(BuildContext context) {
     return Container(
-        color: Colors.white,
-        child: FlutterLogo(size: MediaQuery.of(context).size.height));
+        color: Colors.white, child: Image.asset("assets/gudang.png"));
+    //child: FlutterLogo(size: MediaQuery.of(context).size.height));
   }
 }
