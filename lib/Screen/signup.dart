@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gudangku/Screen/login.dart';
 
 class SignupPage extends StatelessWidget {
   @override
@@ -68,7 +69,12 @@ class SignupPage extends StatelessWidget {
                 child: MaterialButton(
                   minWidth: double.infinity,
                   height: 60,
-                  onPressed: () {},
+                  onPressed: () {
+                    () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => LoginPage()));
+                    };
+                  },
                   color: Color(0xff0095FF),
                   elevation: 0,
                   shape: RoundedRectangleBorder(
@@ -123,7 +129,7 @@ Widget inputFile({label, obscureText = false}) {
               borderSide: BorderSide(color: Colors.grey),
             ),
             border:
-            OutlineInputBorder(borderSide: BorderSide(color: Colors.grey))),
+                OutlineInputBorder(borderSide: BorderSide(color: Colors.grey))),
       ),
       SizedBox(
         height: 10,
