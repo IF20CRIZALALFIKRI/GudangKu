@@ -1,4 +1,7 @@
-import 'package:flutter/cupertino.dart';
+import 'GUDANGA.dart';
+import 'GUDANGB.dart';
+import 'GUDANGC.dart';
+import 'GUDANGD.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
@@ -18,14 +21,16 @@ class Dashboard extends StatelessWidget {
           Card(
               margin: const EdgeInsets.all(8),
               child: InkWell(
-                onTap: (){},
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const GUDANGA()));
+                },
                 splashColor: Colors.blue,
                 child: Center(
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: const <Widget>[
                       Icon(Icons.home, size: 70, color: Colors.blueAccent,),
-                      Text("GUDANG A", style: TextStyle(fontSize: 17.0)),
+                      Text("GUDANGA", style: TextStyle(fontSize: 17.0)),
                     ],
                   ),
                 ),
@@ -34,14 +39,16 @@ class Dashboard extends StatelessWidget {
           Card(
             margin: const EdgeInsets.all(8),
             child: InkWell(
-              onTap: (){},
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const GUDANGB()));
+              },
               splashColor: Colors.blue,
               child: Center(
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: const <Widget>[
                     Icon(Icons.home, size: 70, color: Colors.blueAccent,),
-                    Text("GUDANG B", style: TextStyle(fontSize: 17.0)),
+                    Text("GUDANGB", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -50,14 +57,16 @@ class Dashboard extends StatelessWidget {
           Card(
             margin: const EdgeInsets.all(8),
             child: InkWell(
-              onTap: (){},
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const GUDANGC()));
+              },
               splashColor: Colors.blue,
               child: Center(
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: const <Widget>[
                     Icon(Icons.home, size: 70, color: Colors.blueAccent,),
-                    Text("GUDANG C", style: TextStyle(fontSize: 17.0)),
+                    Text("GUDANGC", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
@@ -66,20 +75,21 @@ class Dashboard extends StatelessWidget {
           Card(
             margin: const EdgeInsets.all(8),
             child: InkWell(
-              onTap: (){},
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const GUDANGD()));
+              },
               splashColor: Colors.blue,
               child: Center(
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: const <Widget>[
                     Icon(Icons.home, size: 70, color: Colors.blueAccent,),
-                    Text("GUDANG D", style: TextStyle(fontSize: 17.0)),
+                    Text("GUDANGD", style: TextStyle(fontSize: 17.0)),
                   ],
                 ),
               ),
             ),
           ),
-
         ],
       ),
     );
